@@ -1,0 +1,34 @@
+{
+  "name": "karas-scale",
+  "version": "0.1.0",
+  "maintainers": [
+    {
+      "name": "army8735",
+      "email": "army8735@qq.com"
+    }
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -c rollup.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karasjs/karas-scale.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "rollup": "^1.21.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-sourcemaps": "^0.4.2"
+  },
+  "main": "./index",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": "army8735 <army8735@qq.com>"
+}
